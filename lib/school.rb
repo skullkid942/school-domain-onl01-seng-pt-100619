@@ -1,8 +1,9 @@
 class School 
   def initialize(name)
+    @name 
+    @roster = {}
   end 
   
-  roster = {}
   
   def add_student(student_name)
     roster[:student_name] = [student_name]
